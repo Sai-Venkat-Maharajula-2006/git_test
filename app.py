@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Addition Program")
 
-num1 = str(st.number_input("Enter first number"))
+num1 = st.number_input("Enter first number"
 num2 = st.number_input("Enter second number")
 
 if st.button("Add"):
